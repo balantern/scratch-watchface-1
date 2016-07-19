@@ -1,0 +1,24 @@
+{
+    "author": "jewel2000k@yahoo.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "watchface",
+    "pebble": {
+        "capabilities": [
+            ""
+        ],
+        "displayName": "Watchface",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "uuid": "08ba00f4-0cda-40fb-af8f-536d907f6b57",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
