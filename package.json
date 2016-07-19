@@ -14,14 +14,8 @@
         "resources": {
             "media": [
                 {
-                    "file": "fonts/SIMPLIFICA Typeface.ttf",
-                    "name": "SIMPLIFICA_20",
-                    "targetPlatforms": null,
-                    "type": "font"
-                },
-                {
-                    "file": "fonts/._ufonts.com_freighttext_blackitalic.ttf",
-                    "name": "FREIGHT_TEXT_20",
+                    "file": "fonts/MoreThanEnough.ttf",
+                    "name": "MORE_THAN_ENOUGH_20",
                     "targetPlatforms": null,
                     "type": "font"
                 }

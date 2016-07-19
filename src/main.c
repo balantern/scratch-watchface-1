@@ -3,9 +3,9 @@
 
 Window *window;
 TextLayer *text_layer;
-TextLayer *text_layer_2;
+TextLayer *another_layer;
 BitmapLayer *background_layer;
-static GFont simplifica_font;
+static GFont more_than_enough;
 
 void window_load(Window *window) {
 	background_layer = bitmap_layer_create(GRect(0, 0, 144, 168));
@@ -18,15 +18,15 @@ void window_load(Window *window) {
 	text_layer_set_text_alignment(text_layer, GTextAlignmentCenter);
 	layer_add_child(window_get_root_layer(window), text_layer_get_layer(text_layer));
 	
-	simplifica_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_SIMPLIFICA_20));
+	more_than_enough = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_MORE_THAN_ENOUGH_20));
 	
-	text_layer_2 = text_layer_create(GRect(0, 60, 144, 30));
-	text_layer_set_text(text_layer_2, "new font");
-	text_layer_set_text_font(text_layer_2, simplifica_font);
-	text_layer_set_text_color(text_layer_2, GColorBlue);
-	text_layer_set_background_color(text_layer_2, GColorMelon);
-	text_layer_set_text_alignment(text_layer_2, GTextAlignmentCenter);
-	layer_add_child(window_get_root_layer(window), text_layer_get_layer(text_layer_2));
+	another_layer = text_layer_create(GRect(0, 60, 144, 30));
+	text_layer_set_text(another_layer, "new font");
+	text_layer_set_text_color(another_layer, GColorBlue);
+	text_layer_set_font(another_layer, more_than_enough);
+	text_layer_set_background_color(another_layer, GColorMelon);
+	text_layer_set_text_alignment(another_layer, GTextAlignmentCenter);
+	layer_add_child(window_get_root_layer(window), text_layer_get_layer(another_layer));
 }
 
 void window_unload(Window *window) {
