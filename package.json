@@ -12,7 +12,20 @@
         "messageKeys": [],
         "projectType": "native",
         "resources": {
-            "media": []
+            "media": [
+                {
+                    "file": "fonts/SIMPLIFICA Typeface.ttf",
+                    "name": "SIMPLIFICA_20",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/._ufonts.com_freighttext_blackitalic.ttf",
+                    "name": "FREIGHT_TEXT_20",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
         },
         "sdkVersion": "3",
         "uuid": "08ba00f4-0cda-40fb-af8f-536d907f6b57",
